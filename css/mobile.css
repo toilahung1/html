@@ -1,0 +1,42 @@
+@media only screen and (max-width: 767px) {
+  section > .container {
+    padding: 15px;
+  }
+  #nav-bar {
+    border: none;
+  }
+  #nav-bar .container {
+    flex-direction: column;
+  }
+  #nav-bar a {
+    padding: 15px;
+  }
+  #nav-bar .name {
+    display: none;
+  }
+  #about .container, #job-info .container, .certificate-item, .certificate-container, .project-container {
+    grid-template-columns: 1fr;
+  }
+  #personal-info h1,
+  .info,
+  .info-icons {
+    padding-left: 0px;
+  }
+  .project-item{
+    padding-top: 20px;
+  }
+  #footer .container ul{
+    flex-direction: column;
+  }
+}
+
+/*DigitalCV.html*/
+@media only screen and (max-width: 767px) {
+  .grid-container{
+  display: block;
+  }
+  .row{
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,23 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #nav-bar .name{
+    display: none;
+  }
+  #job-info .container, .project-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .certificate-item{
+    grid-template-columns: 1fr;
+  }
+}
+
+/*DigitalCV.html*/
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+  .grid-container{
+    display: block;
+    }
+    .row{
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr;
+    }
+}
